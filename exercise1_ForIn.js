@@ -1,4 +1,3 @@
-const prompt = require("prompt-sync")()
 
 /*
 1. Acessando Propriedades de Objetos
@@ -19,17 +18,23 @@ for (let prop in car) {
     console.log(prop + ":" + car[prop])
 }
 
-/*Certifique-se de que o Node.js está instalado. 
-Este código utiliza o módulo prompt-sync para capturar a entrada do usuário. 
-Para instalar este módulo, siga os passos abaixo:
-Abra o terminal no diretório onde o arquivo .js está salvo.
-Execute o comando para instalar o prompt-sync: npm install prompt-sync
-Abra o terminal no diretório onde o arquivo .js está salvo. 
-Se estiver usando o VS Code, você pode abrir o terminal integrado.
+/*
 
-Ao executar o código, o programa criará um objeto car com as propriedades mark (marca), 
-model (modelo), year (ano) e color (cor).
-O programa utilizará um loop for...in para iterar sobre as propriedades do objeto car e
-exibirá o nome de cada propriedade e seu respectivo valor no console.
+Abra o terminal e execute o comando: node -v
+Se o Node.js não estiver instalado, faça o download
+e instale a partir do site oficial: Node.j
+Salve o código fornecido em um arquivo .js em seu computador.
+Navegue até o diretório onde o arquivo .js está salvo. 
+Se estiver usando o VS Code, você pode abrir o terminal integrado.
+No terminal, execute o comando: node nome_do_arquivo.js
+
+Substitua nome_do_arquivo.js pelo nome do arquivo onde o código foi salvo.
+O código deve imprimir no console:
+mark: Fiat
+model: Uno
+year: 2020
+color: Branco
+
+
 */
 
