@@ -6,8 +6,7 @@ anoPublicacao e genero. Verifique se a propriedade editora existe no
 objeto usando for in. Se não existir,, adicione essa propriedade ao objeto.
 */
 
-
-const livro = {
+let livro = {
     title: "O Código Da Vince",
     author: "Robert Langdon",
     publicationYear: 2003,
