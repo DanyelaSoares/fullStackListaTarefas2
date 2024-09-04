@@ -12,8 +12,6 @@ let car = {
     year: 2020,
     color: "Branco"
 }
-
-
 for (let prop in car) {
     console.log(prop + ":" + car[prop])
 }
