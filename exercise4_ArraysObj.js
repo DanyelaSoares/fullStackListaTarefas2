@@ -5,13 +5,13 @@ uma pessoa com nome, idade, e cidade. Use for of para exibir as
 informações de cada pessoa no console.
 */
 
-const people = [
+let people = [
     { name: 'Ana', age: 25, city: 'São Paulo' },
     { name: 'John', age: 30, city: 'Rio de Janeiro' },
     { name: 'Maria', age: 22, city: 'Belo Horizonte' }
 ];
 
-for (const person of people) {
+for (let person of people) {
     console.log(`Name: ${person.name}`);
     console.log(`Age: ${person.age}`);
     console.log(`City: ${person.city}`);
