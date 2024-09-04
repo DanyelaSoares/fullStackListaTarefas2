@@ -8,18 +8,16 @@ propriedades.
 */
 
 function filterGradesByValue(student, minimumGrade) {
-    const filteredGrades = {};
+    let filteredGrades = {};
 
     for (let subject in student) {
         if (student[subject] > minimumGrade) {
             filteredGrades[subject] = student[subject];
         }
     }
-
     return filteredGrades;
 }
-
-const student = {
+let student = {
     math: 75,
     history: 82,
     physics: 68,
@@ -27,8 +25,8 @@ const student = {
     geography: 90
 };
 
-const minimumGrade = 70;
-const gradesAboveAverage = filterGradesByValue(student, minimumGrade);
+let minimumGrade = 70;
+let gradesAboveAverage = filterGradesByValue(student, minimumGrade);
 
 console.log(gradesAboveAverage);
 /*
@@ -45,10 +43,4 @@ de um objeto student, retornando um novo objeto que contém apenas as
 propriedades cujo valor é maior que o valor mínimo especificado (minimumGrade).
 O resultado será impresso no console mostrando um objeto com as
 propriedades cujos valores são maiores que 70.
-{
-    math: 75,
-    history: 82,
-    geography: 90
-}
-
 */
